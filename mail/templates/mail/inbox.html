@@ -12,10 +12,34 @@
     <hr>
 
     <div id="emails-view">
+
+      
+        
+
+
+     
+
+
+    </div>
+
+    <div id="single-email">
+
+        <h5 id="from">From :<p id="from_p"></p></h5>
+        <h5 id="to">To :<p id="to_p"></p></h5>
+        <h5 id="subject">Subject : <p id="subject_p"></p></h5>
+        <h5 id="timestamp">TimeStamp: <p id="timestamp_p"></p></h5>
+        <button id="reply" class="btn btn-sm btn-outline-primary">Reply</button>
+        <button id="archive-unarchive" class="btn btn-sm btn-outline-primary">Archive</button>
+        <br>
+        <hr>
+        <p id="body_message"></p>
+        <p id="read"></p>
+
+
     </div>
 
     <div id="compose-view">
-        <h3>New Email</h3>
+        <h3 id="reply-email">New Email</h3>
         <form id="compose-form">
             <div class="form-group">
                 From: <input disabled class="form-control" value="{{ request.user.email }}">

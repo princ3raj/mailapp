@@ -1,3 +1,88 @@
 textarea {
     min-height: 400px;
 }
+
+
+#emails-view .inbox-styling
+{
+
+    display:inline-block;
+    height: 40px;
+    font-weight: bold;
+    border-style:solid;
+    border-collapse: collapse;
+    padding: 5px;
+    position: relative;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#emails-view .inbox-styling #email-timestamp
+{
+    display: inline-block;
+    min-width: 740px;
+    height: 60px;
+    text-align: end;
+    font-weight: normal;
+}
+
+#emails-view .inbox-styling #email-para,#email-subject{
+    display: inline-block;
+    width: 150px;
+    height: 60px;
+    font-weight: normal;
+
+}
+
+#emails-view .inbox-styling #email-para{
+    font-weight: bolder;
+    
+}
+
+
+#emails-view .inbox-styling #email-timestamp{
+  font-weight: -100;
+  color: rgba(22, 22, 20, 0.452);
+
+}
+
+#single-email #from_p,#to_p,#subject_p,#timestamp_p{
+    display: inline;
+    font-size: medium;
+    font-weight: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#single-email #archive-unarchive,#reply {
+    padding: 5px 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: navy;
+    color: rgba(76, 146, 238, 0.452);
+    background-color: #ffffff94;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  #single-email #archive-unarchive:hover {background-color: #87CEEB}
+  
+  #single-email #archive-unarchive:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+  #single-email #reply:hover {background-color: #87CEEB}
+  
+  #single-email #reply:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+
+
